@@ -1,0 +1,11 @@
+name: Caginate
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: TartanLlama/caginator@v1-release
